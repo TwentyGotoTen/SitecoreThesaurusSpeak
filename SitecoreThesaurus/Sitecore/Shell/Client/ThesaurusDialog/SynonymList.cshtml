@@ -26,7 +26,7 @@
     <table class="sc-listcontrol sc-table table">
         <tbody data-bind="foreach: synonyms" class="sc-hyperlinkbuttonsgroup">
             <tr>
-                <td data-bind="text: Description, click: function(){console.log($root); console.log($root.applySelectedValue);$root.applySelectedValue(Value);  }" class="ventilate"></td>
+                <td data-bind="text: Description, click: function(){ $root.applySelectedValue(Value); }" class="ventilate"></td>
             </tr>
         </tbody>
     </table>
