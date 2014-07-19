@@ -1,0 +1,38 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-ThesaurusLayout";
+  rendering.Requires.Script("client", "ThesaurusLayout.js");
+
+  var controlId = rendering.ControlId;
+  var htmlAttributes = rendering.HtmlAttributes;
+
+}      
+
+<style type="text/css">
+
+    .sc-ThesaurusLayout-Header
+    {
+        width: 100%;
+        position: fixed;
+        height: 70px;
+        background: #cdcdcd;
+        z-index: 9999;
+    }
+    .sc-ThesaurusLayout-Body
+    {
+     padding-top: 70px;
+    }
+
+</style> 
+<div @htmlAttributes>
+    <div class="sc-ThesaurusLayout-Header">
+            @Html.Sitecore().Placeholder(controlId + ".Header")
+    </div>
+    <div class="sc-ThesaurusLayout-Body">
+        @Html.Sitecore().Placeholder(controlId + ".Body")
+    </div>
+</div>

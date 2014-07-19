@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\sc72\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/SitecoreThesaurus.config">
+      <publishTime>06/21/2014 09:40:55</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>02/28/2014 19:27:22</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>02/28/2014 19:27:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>02/28/2014 19:27:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>02/28/2014 19:27:38</publishTime>
+    </File>
+    <File Include="bin/SitecoreThesaurus.dll">
+      <publishTime>07/07/2014 00:00:46</publishTime>
+    </File>
+    <File Include="bin/SitecoreThesaurus.pdb">
+      <publishTime>07/07/2014 00:00:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/28/2014 19:27:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/28/2014 19:27:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/28/2014 19:27:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/28/2014 19:27:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/28/2014 19:27:46</publishTime>
+    </File>
+    <File Include="Sitecore Modules/Shell/Thesaurus Lookup Button/Command.js">
+      <publishTime>07/12/2014 17:09:34</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymDatasource.cshtml">
+      <publishTime>07/06/2014 09:44:58</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymDatasource.js">
+      <publishTime>07/14/2014 23:03:50</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymDatasource.test.js">
+      <publishTime>05/07/2014 14:07:48</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymList.cshtml">
+      <publishTime>07/14/2014 22:04:08</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymList.js">
+      <publishTime>07/14/2014 22:52:13</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/SynonymList.test.js">
+      <publishTime>07/05/2014 12:05:10</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusDatasource.cshtml">
+      <publishTime>07/05/2014 13:30:21</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusDatasource.js">
+      <publishTime>05/07/2014 15:26:48</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusDatasource.test.js">
+      <publishTime>07/03/2014 21:52:38</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusLayout.cshtml">
+      <publishTime>07/14/2014 21:28:06</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusLayout.js">
+      <publishTime>07/05/2014 20:36:15</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/ThesaurusLayout.test.js">
+      <publishTime>05/07/2014 16:10:33</publishTime>
+    </File>
+    <File Include="Sitecore/Shell/Client/ThesaurusDialog/web.config">
+      <publishTime>06/21/2014 11:26:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

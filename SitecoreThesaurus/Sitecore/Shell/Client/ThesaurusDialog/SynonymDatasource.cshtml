@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-SynonymDatasource";
+  rendering.Requires.Script("client", "SynonymDatasource.js");
+
+  rendering.GetString("cleanTerm", "cleanTerm");
+  rendering.GetString("rawTerm", "rawTerm");
+  rendering.GetString("synonyms", "synonyms");
+  
+  rendering.GetString("synonymCount", "synonymCount");
+  rendering.GetString("synonymCountMessaage", "synonymCountMessaage");
+  rendering.GetString("hasSynonyms", "hasSynonyms");
+  rendering.GetString("hasNoSynonyms", "hasNoSynonyms");
+
+  rendering.GetString("lookupFailed", "lookupFailed");
+  rendering.GetString("failureMessage", "failureMessage");
+  
+  var htmlAttributes = rendering.HtmlAttributes;
+}      
+<div @htmlAttributes
+</div>

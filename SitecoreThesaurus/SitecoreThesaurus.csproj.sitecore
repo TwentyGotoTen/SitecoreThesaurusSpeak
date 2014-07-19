@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <Site Server="sc72" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Sitecore\Shell\Client\ThesaurusDialog\SynonymList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{295D36E1-32A4-4581-BC31-039578537749}</Item>
+    </File>
+    <File Include="Sitecore\Shell\Client\ThesaurusDialog\SynonymDatasource.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+      <Item DatabaseName="core">{22FF0F2E-4E75-4F3A-B2B3-BD641BD6ACB3}</Item>
+    </File>
+  </ItemGroup>
+</Project>

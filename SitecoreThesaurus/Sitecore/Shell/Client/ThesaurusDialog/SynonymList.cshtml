@@ -1,0 +1,33 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+  var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+  rendering.Class = "sc-SynonymList";
+  rendering.Requires.Script("client", "SynonymList.js");
+
+  rendering.GetString("cleanTerm", "cleanTerm");
+  rendering.GetString("rawTerm", "rawTerm");
+  rendering.GetString("synonyms", "synonyms");
+
+  var htmlAttributes = rendering.HtmlAttributes;
+ 
+}      
+<style type="text/css">
+
+    .sc-SynonymList tr td {
+        font-size: 125%;
+        cursor: pointer;
+    }
+</style>
+
+<div @htmlAttributes>
+    <table class="sc-listcontrol sc-table table">
+        <tbody data-bind="foreach: synonyms" class="sc-hyperlinkbuttonsgroup">
+            <tr>
+                <td data-bind="text: Description, click: function(){console.log($root); console.log($root.applySelectedValue);$root.applySelectedValue(Value);  }" class="ventilate"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,11 @@
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\SitecoreThesaurus.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\SitecoreThesaurus.pdb
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\obj\Debug\SitecoreThesaurus.csprojResolveAssemblyReference.cache
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\obj\Debug\SitecoreThesaurus.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\obj\Debug\SitecoreThesaurus.pdb
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\System.Web.Mvc.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\System.Web.Razor.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\System.Web.WebPages.Razor.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\System.Web.WebPages.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\System.Web.WebPages.Deployment.dll
+C:\Development\SitecoreThesaurus\SitecoreThesaurus\bin\Sitecore.Mvc.dll
